@@ -1,7 +1,7 @@
 (module substitutions  (lib "eopl.ss" "eopl")
-  (require "drscheme-init.scm")
-  (require "lang.scm")
-  (require "data-structures.scm")
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
 
   (provide substitution? empty-subst extend-subst apply-subst-to-type)
 

@@ -1,7 +1,7 @@
 (module environments (lib "eopl.ss" "eopl") 
   
-  (require "data-structures.scm")
-  (require "store.scm")
+  (require "data-structures.rkt")
+  (require "store.rkt")
 
   (provide init-env empty-env extend-env apply-env env->list)
 

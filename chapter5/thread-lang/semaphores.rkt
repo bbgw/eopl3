@@ -1,10 +1,10 @@
 (module semaphores (lib "eopl.ss" "eopl")
 
-  (require "drscheme-init.scm")
-  (require "store.scm")                    ; for store ops
-  (require "data-structures.scm")          ; for lock, a-lock
-  (require "scheduler.scm")                ; for os calls
-  (require "queues.scm")
+  (require "drscheme-init.rkt")
+  (require "store.rkt")                    ; for store ops
+  (require "data-structures.rkt")          ; for lock, a-lock
+  (require "scheduler.rkt")                ; for os calls
+  (require "queues.rkt")
 
   (provide (all-defined-out))
 

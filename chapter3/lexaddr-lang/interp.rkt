@@ -2,11 +2,11 @@
   
   ;; interpreter for the LEXADDR language.
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "environments.scm")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "environments.rkt")
 
   (provide value-of-translation value-of)
 

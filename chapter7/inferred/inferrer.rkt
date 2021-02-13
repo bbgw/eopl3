@@ -1,9 +1,9 @@
 (module inferrer  (lib "eopl.ss" "eopl")
 
-  (require "drscheme-init.scm")
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "unifier.scm")
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "unifier.rkt")
 
   (provide type-of-program type-of)
 

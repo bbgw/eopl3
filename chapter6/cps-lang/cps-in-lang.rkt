@@ -2,7 +2,7 @@
   
   ;; input language for the CPS converter.
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
   
   (provide (all-defined-out))
 

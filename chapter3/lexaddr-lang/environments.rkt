@@ -1,6 +1,6 @@
 (module environments (lib "eopl.ss" "eopl") 
   
-  (require "data-structures.scm")
+  (require "data-structures.rkt")
   (provide init-nameless-env empty-nameless-env extend-nameless-env
            apply-nameless-env)
 

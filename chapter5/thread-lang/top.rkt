@@ -9,11 +9,11 @@
   (define (test-all) 
     (run-all 50))
 
-  (require "drscheme-init.scm")
-  (require "data-structures.scm")   
-  (require "lang.scm")                  ; for scan&parse
-  (require "interp.scm")                ; for value-of-program
-  (require "tests.scm")                 ; for test-list
+  (require "drscheme-init.rkt")
+  (require "data-structures.rkt")
+  (require "lang.rkt")                  ; for scan&parse
+  (require "interp.rkt")                ; for value-of-program
+  (require "tests.rkt")                 ; for test-list
   
   ;;;;;;;;;;;;;;;; interface to test harness ;;;;;;;;;;;;;;;;
   

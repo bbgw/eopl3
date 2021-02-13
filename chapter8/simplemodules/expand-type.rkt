@@ -1,7 +1,7 @@
 (module expand-type (lib "eopl.ss" "eopl")
 
-  (require "lang.scm")
-  (require "static-data-structures.scm")
+  (require "lang.rkt")
+  (require "static-data-structures.rkt")
 
   (provide expand-type)
   (provide expand-iface)

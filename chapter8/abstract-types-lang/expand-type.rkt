@@ -1,8 +1,8 @@
 (module expand-type (lib "eopl.ss" "eopl")
 
-  (require "lang.scm")
-  (require "static-data-structures.scm")
-  ; (require "renaming.scm")              ; for fresh-module-name
+  (require "lang.rkt")
+  (require "static-data-structures.rkt")
+  ; (require "renaming.rkt")              ; for fresh-module-name
 
   (provide expand-type)
   (provide expand-iface)

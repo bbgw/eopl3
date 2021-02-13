@@ -1,12 +1,12 @@
 (module check-modules (lib "eopl.ss" "eopl")
 
-  (require "drscheme-init.scm")
-  (require "lang.scm")
-  (require "static-data-structures.scm")
-  (require "expand-type.scm")
-  (require "checker.scm")
-  (require "renaming.scm")
-  (require "subtyping.scm")
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
+  (require "static-data-structures.rkt")
+  (require "expand-type.rkt")
+  (require "checker.rkt")
+  (require "renaming.rkt")
+  (require "subtyping.rkt")
 
   (provide type-of-program)
  

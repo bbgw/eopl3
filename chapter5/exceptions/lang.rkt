@@ -6,7 +6,7 @@
   ;; exercise: allow the "list" operator to take expressions instead
   ;; of just numbers.
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
   
   (provide (all-defined-out))
 

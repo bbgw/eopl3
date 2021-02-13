@@ -8,17 +8,17 @@
   (define (test-all) 
     (run-all))
 
-  (require "drscheme-init.scm")
-  (require "data-structures.scm")        ; for expval constructors
-  (require "cps-in-lang.scm")            ; for scan&parse
-  (require "cps.scm")                    ; for cps transformer
-  (require "interp.scm")                 ; for value-of-program
-  (require "tests.scm")                  ; for test-list
+  (require "drscheme-init.rkt")
+  (require "data-structures.rkt")        ; for expval constructors
+  (require "cps-in-lang.rkt")            ; for scan&parse
+  (require "cps.rkt")                    ; for cps transformer
+  (require "interp.rkt")                 ; for value-of-program
+  (require "tests.rkt")                  ; for test-list
 
-  (require "cps-out-lang.scm")              ; for cps-program->string 
+  (require "cps-out-lang.rkt")              ; for cps-program->string
   
   (provide (all-defined-out))
-  (provide (all-from-out "interp.scm"))
+  (provide (all-from-out "interp.rkt"))
 
   (define instrument-cps (make-parameter #f))  
   

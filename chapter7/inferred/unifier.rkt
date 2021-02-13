@@ -1,9 +1,9 @@
 (module unifier (lib "eopl.ss" "eopl")
 
-  (require "drscheme-init.scm")
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "substitutions.scm")
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "substitutions.rkt")
 
   ;; this provides a new view of substitutions, in which unifier
   ;; replaces extend-env as a constructor.

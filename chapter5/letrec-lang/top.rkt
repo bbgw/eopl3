@@ -4,8 +4,8 @@
   ;; test with  (interp-run-all) or (registers-run-all)
   ;; (run-all) will run both.
 
-  (require (prefix-in interp- "top-interp.scm"))
-  (require (prefix-in registers- "top-interp-registers.scm"))
+  (require (prefix-in interp- "top-interp.rkt"))
+  (require (prefix-in registers- "top-interp-registers.rkt"))
   
   (provide interp-run registers-run run-all)
 

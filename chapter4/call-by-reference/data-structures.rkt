@@ -2,10 +2,10 @@
 
   ;; data structures for call-by-reference language
 
-  (require "lang.scm")                  ; for expression?
-  (require "store.scm")                 ; for reference?
+  (require "lang.rkt")                  ; for expression?
+  (require "store.rkt")                 ; for reference?
 
-  (require "pairvals.scm")
+  (require "pairvals.rkt")
 
   (provide (all-defined-out))               ; too many things to list
 

@@ -1,7 +1,7 @@
 (module checker (lib "eopl.ss" "eopl")
 
-  (require "drscheme-init.scm")
-  (require "lang.scm")
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
 
   (provide type-of type-of-program)
 

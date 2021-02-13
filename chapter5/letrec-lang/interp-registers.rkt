@@ -1,13 +1,13 @@
-(module interp-registers "eopl-without-exp.scm"
+(module interp-registers "eopl-without-exp.rkt"
   
   ;; imperative cps interpreter for the LETREC language, using the
   ;; data structure representation of continuations (Figure 5.3)
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "environments.scm")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "environments.rkt")
 
   (provide value-of-program value-of/k)
 
@@ -44,7 +44,7 @@
   ;;      cont : Cont
   ;; Page 167 and 168
   ;;
-  ;; The code from the corresponding portions of interp.scm is shown
+  ;; The code from the corresponding portions of interp.rkt is shown
   ;; as comments.
   (define value-of/k
     (lambda ()                         
@@ -111,7 +111,7 @@
         (end-cont ()
           (eopl:printf "End of computation.~%")
           val)
-        ;; or (logged-print val)  ; if you use drscheme-init-cps.scm
+        ;; or (logged-print val)  ; if you use drscheme-init-cps.rkt
         (zero1-cont (saved-cont)
           ;; (apply-cont cont
           ;;   (bool-val

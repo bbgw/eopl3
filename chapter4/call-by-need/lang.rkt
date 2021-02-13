@@ -3,7 +3,7 @@
   ;; language for the CALL-BY-NEED language.  Based on MUTABLE-PAIRS
   ;; language. 
   
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
   
   (provide (all-defined-out))
 

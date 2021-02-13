@@ -5,12 +5,12 @@
   ;; Run the test suite for the checker with (check-all).
 
 
-  (require "drscheme-init.scm")
-  (require "data-structures.scm")       ; for expval constructors
-  (require "lang.scm")                  ; for scan&parse
-  (require "checker.scm")               ; for type-of-program
-  (require "interp.scm")                ; for value-of-program
-  (require "tests.scm")                 ; for tests-for-run and tests-for-check
+  (require "drscheme-init.rkt")
+  (require "data-structures.rkt")       ; for expval constructors
+  (require "lang.rkt")                  ; for scan&parse
+  (require "checker.rkt")               ; for type-of-program
+  (require "interp.rkt")                ; for value-of-program
+  (require "tests.rkt")                 ; for tests-for-run and tests-for-check
   
   (provide run run-all check check-all)
   

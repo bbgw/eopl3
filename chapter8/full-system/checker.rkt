@@ -1,9 +1,9 @@
 (module checker (lib "eopl.ss" "eopl")
 
-  (require "drscheme-init.scm")
-  (require "lang.scm")
-  (require "static-data-structures.scm")
-  (require "expand-type.scm")
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
+  (require "static-data-structures.rkt")
+  (require "expand-type.rkt")
 
   (provide type-of)
 
@@ -26,7 +26,7 @@
 
   ;;;;;;;;;;;;;;;; The Type Checker ;;;;;;;;;;;;;;;;
   
-  ;; moved to check-modules.scm
+  ;; moved to check-modules.rkt
   ;; type-of-program : Program -> Type
   ;; Page: 244 
   ;;   (define type-of-program
@@ -122,5 +122,5 @@
         
         )))
     
-  ;; type environments are now in static-data-structures.scm .
+  ;; type environments are now in static-data-structures.rkt .
   )

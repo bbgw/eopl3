@@ -8,11 +8,11 @@
 
   ;; exercise: rewrite this using a trampoline (page 159).
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "environments.scm")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "environments.rkt")
 
   (provide value-of-program value-of/k)
 
@@ -67,7 +67,7 @@
             (eopl:printf
               "End of computation.~%")
             val))
-        ;; or (logged-print val)  ; if you use drscheme-init-cps.scm
+        ;; or (logged-print val)  ; if you use drscheme-init-cps.rkt
         (zero1-cont (saved-cont)
           (apply-cont saved-cont
             (bool-val

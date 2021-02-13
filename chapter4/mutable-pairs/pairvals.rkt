@@ -1,12 +1,12 @@
 (module pairvals (lib "eopl.ss" "eopl")
 
   ;; choose one of the following:
-  ;; (require "pairval1.scm")
-  ;; (provide (all-from-out "pairval1.scm"))
+  ;; (require "pairval1.rkt")
+  ;; (provide (all-from-out "pairval1.rkt"))
 
   ;; or
-    (require "pairval2.scm")
-    (provide (all-from-out "pairval2.scm"))
+    (require "pairval2.rkt")
+    (provide (all-from-out "pairval2.rkt"))
 
 )
 

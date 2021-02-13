@@ -1,10 +1,10 @@
 (module interp (lib "eopl.ss" "eopl")
   
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "environments.scm")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "environments.rkt")
 
   (provide value-of-program value-of/k)
   (provide trace-apply-procedure)

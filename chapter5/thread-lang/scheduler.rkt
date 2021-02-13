@@ -1,9 +1,9 @@
 (module scheduler (lib "eopl.ss" "eopl")
   
-  (require "drscheme-init.scm")
-  (require "queues.scm")
-  (require "data-structures.scm")       ; for continuation?
-  (require "lang.scm")                  ; for expval?
+  (require "drscheme-init.rkt")
+  (require "queues.rkt")
+  (require "data-structures.rkt")       ; for continuation?
+  (require "lang.rkt")                  ; for expval?
   
   (provide
     initialize-scheduler!

@@ -1,10 +1,10 @@
 (module interp (lib "eopl.ss" "eopl")
   
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "cps-out-lang.scm")
-  (require "data-structures.scm")
-  (require "store.scm")
+  (require "cps-out-lang.rkt")
+  (require "data-structures.rkt")
+  (require "store.rkt")
 
   (provide value-of-program value-of/k)
 

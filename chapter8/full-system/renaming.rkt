@@ -1,6 +1,6 @@
 (module renaming (lib "eopl.ss" "eopl")
 
-  (require "lang.scm")
+  (require "lang.rkt")
 
   (provide rename-in-iface fresh-module-name)
 

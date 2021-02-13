@@ -4,14 +4,14 @@
   ;; Run the test suite for the interpreter with (run-all).
   ;; Run the test suite for the checker with (check-all).
 
-  (require "drscheme-init.scm")
-  (require "data-structures.scm")       ; for expval constructors
-  (require "lang.scm")                  ; for scan&parse
-  (require "inferrer.scm")              ; for type-of-program
-  (require "interp.scm")                ; for value-of-program
-  (require "tests.scm")                 ; for test-for-run and tests-for-check
+  (require "drscheme-init.rkt")
+  (require "data-structures.rkt")       ; for expval constructors
+  (require "lang.rkt")                  ; for scan&parse
+  (require "inferrer.rkt")              ; for type-of-program
+  (require "interp.rkt")                ; for value-of-program
+  (require "tests.rkt")                 ; for test-for-run and tests-for-check
 
-  (require "equal-up-to-gensyms.scm")   ; for equal-up-to-gensyms
+  (require "equal-up-to-gensyms.rkt")   ; for equal-up-to-gensyms
   
   (provide run run-all check check-all)
   

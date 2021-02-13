@@ -3,11 +3,11 @@
   ;; top level module.  Loads all required pieces.
   ;; Run the test suite with (run-all).
 
-  (require "drscheme-init.scm")
-  (require "data-structures.scm")  ; for expval constructors
-  (require "lang.scm")             ; for scan&parse
-  (require "interp-registers.scm")   ; or use register version.
-  (require "tests.scm")            ; for test-list
+  (require "drscheme-init.rkt")
+  (require "data-structures.rkt")  ; for expval constructors
+  (require "lang.rkt")             ; for scan&parse
+  (require "interp-registers.rkt")   ; or use register version.
+  (require "tests.rkt")            ; for test-list
   
   (provide run run-all)
   

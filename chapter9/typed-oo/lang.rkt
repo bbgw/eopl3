@@ -8,7 +8,7 @@
   ;;   types a la CHECKED (not INFERRED)
   ;;   lists of expressed values
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
   
   (provide (all-defined-out))
 

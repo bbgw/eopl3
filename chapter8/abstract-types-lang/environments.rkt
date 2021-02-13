@@ -1,8 +1,8 @@
 (module environments (lib "eopl.ss" "eopl") 
   
-  (require "drscheme-init.scm")
-  (require "data-structures.scm")
-  (require "lang.scm")
+  (require "drscheme-init.rkt")
+  (require "data-structures.rkt")
+  (require "lang.rkt")
 
   (provide empty-env extend-env apply-env)
   (provide lookup-module-name-in-env)

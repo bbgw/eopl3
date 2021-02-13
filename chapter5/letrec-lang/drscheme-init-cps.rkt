@@ -1,6 +1,6 @@
-;; drscheme-init-cps.scm - compatibility file for DrScheme
+;; drscheme-init-cps.rkt - compatibility file for DrScheme
 
-;; usage: (require "drscheme-init-cps.scm")
+;; usage: (require "drscheme-init-cps.rkt")
 
 ;;; like drscheme-init, but also provides a logged-print functionality
 ;;; that can be used to check the correctness of printed output.
@@ -8,10 +8,10 @@
 ;;; makes structs printable, and provides basic functionality for
 ;;; testing.  This includes pretty-printing and tracing.
 
-(module drscheme-init-cps.scm mzscheme
+(module drscheme-init-cps.rkt mzscheme
   
   (let ((version "plt360 2/25/07")
-        (filename "drscheme-mp5-init.scm"))
+        (filename "drscheme-mp5-init.rkt"))
     (printf "~a ~a~%" filename version))
   
   ;; show the contents of define-datatype values

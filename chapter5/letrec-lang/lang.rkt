@@ -2,7 +2,7 @@
   
   ;; grammar for the LETREC language
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
   
   (provide (all-defined-out))
 

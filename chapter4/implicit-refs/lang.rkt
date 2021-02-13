@@ -2,7 +2,7 @@
   
   ;; language for IMPLICIT-REFS
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
   
   (provide (all-defined-out))
 

@@ -1,6 +1,6 @@
 (module data-structures (lib "eopl.ss" "eopl")
 
-  (require "lang.scm")                  ; for expression?
+  (require "lang.rkt")                  ; for expression?
 
   (provide (all-defined-out))               ; too many things to list
 
@@ -52,7 +52,7 @@
 
 ;; ;;;;;;;;;;;;;;;; continuations ;;;;;;;;;;;;;;;;
 
-;; moved to interp.scm
+;; moved to interp.rkt
 
 ;;;;;;;;;;;;;;;; procedures ;;;;;;;;;;;;;;;;
 
@@ -64,7 +64,7 @@
 
 ;;;;;;;;;;;;;;;; environment structures ;;;;;;;;;;;;;;;;
 
-;;; replaced by custom environment structure in environments.scm.
+;;; replaced by custom environment structure in environments.rkt.
 ;;; This represents an environment as an alist  ((id rhs) ...)
 ;;; where rhs is either an expval or a list (bvar body)
 ;;; expval is for extend-env; the list is for extend-env-rec.
@@ -72,7 +72,7 @@
 ;;; this representation is designed to make the printed representation
 ;;; of the environment more readable.
 
-;;; The code for this is in environments.scm, but we need environment?
+;;; The code for this is in environments.rkt, but we need environment?
 ;;; for define-datatype proc, so we write an appoximation:
 
   (define environment?

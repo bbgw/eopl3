@@ -1,8 +1,8 @@
 (module data-structures (lib "eopl.ss" "eopl")
 
-  (require "lang.scm")                  ; for expression?
-  (require "store.scm")
-  ;; (provide (all-from "lang.scm"))
+  (require "lang.rkt")                  ; for expression?
+  (require "store.rkt")
+  ;; (provide (all-from "lang.rkt"))
   (provide (all-defined-out))               ; too many things to list
 
 
@@ -140,7 +140,7 @@
 ;;; of the environment more readable.
 
 ;;; This should probably be factored out into a module called
-;;; environments.scm, like it is in most of the other interpreters.
+;;; environments.rkt, like it is in most of the other interpreters.
 
   (define empty-env
     (lambda ()

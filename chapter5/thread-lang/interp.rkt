@@ -1,11 +1,11 @@
 (module interp (lib "eopl.ss" "eopl")
   
-  (require "drscheme-init.scm")
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "store.scm")
-  (require "scheduler.scm")
-  (require "semaphores.scm")     
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "store.rkt")
+  (require "scheduler.rkt")
+  (require "semaphores.rkt")
   
   (provide value-of-program trace-interp)
 

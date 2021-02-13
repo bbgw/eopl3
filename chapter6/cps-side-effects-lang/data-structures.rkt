@@ -1,7 +1,7 @@
 (module data-structures (lib "eopl.ss" "eopl")
 
-  (require "cps-out-lang.scm")          ; for tfexp?
-  (require "store.scm")                 ; for reference?
+  (require "cps-out-lang.rkt")          ; for tfexp?
+  (require "store.rkt")                 ; for reference?
 
   (provide (all-defined-out))               ; too many things to list
 

@@ -1,9 +1,9 @@
 (module subtyping (lib "eopl.ss" "eopl")
   
-  (require "lang.scm")
-  (require "static-data-structures.scm")
-  (require "expand-type.scm")
-  (require "renaming.scm")
+  (require "lang.rkt")
+  (require "static-data-structures.rkt")
+  (require "expand-type.rkt")
+  (require "renaming.rkt")
 
   (provide <:-iface)
 

@@ -1,8 +1,8 @@
 (module cps (lib "eopl.ss" "eopl")                
   
-  (require "drscheme-init.scm")
-  (require "cps-in-lang.scm")
-  (require "cps-out-lang.scm")
+  (require "drscheme-init.rkt")
+  (require "cps-in-lang.rkt")
+  (require "cps-out-lang.rkt")
 
   (provide cps-of-program)
 

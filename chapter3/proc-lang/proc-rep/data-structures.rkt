@@ -2,7 +2,7 @@
 
  ;; data structures for proc-lang/proc-rep
 
-  (require "lang.scm")                  ; for expression?
+  (require "lang.rkt")                  ; for expression?
 
   (provide (all-defined-out))               ; too many things to list
 

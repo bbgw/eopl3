@@ -1,5 +1,5 @@
-;; drscheme-init.scm - compatibility file for DrScheme
-;; usage: (require "drscheme-init.scm")
+;; drscheme-init.rkt - compatibility file for DrScheme
+;; usage: (require "drscheme-init.rkt")
 
 ;;; makes structs printable, and provides basic functionality for
 ;;; testing.  This includes pretty-printing and tracing.

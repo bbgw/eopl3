@@ -4,11 +4,11 @@
   ;; latex code for inserting the rules into the code in the book.
   ;; These are too complicated to put here, see the text, sorry.
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "environments.scm")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "environments.rkt")
 
   (provide value-of-program value-of)
 

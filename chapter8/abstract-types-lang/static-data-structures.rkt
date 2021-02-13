@@ -1,6 +1,6 @@
 (module static-data-structures (lib "eopl.ss" "eopl")
 
-  (require "lang.scm")                  ; for expression?, type?, etc.
+  (require "lang.rkt")                  ; for expression?, type?, etc.
 
   (provide (all-defined-out))               ; too many things to list
 

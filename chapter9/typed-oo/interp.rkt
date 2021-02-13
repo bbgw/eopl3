@@ -1,12 +1,12 @@
 (module interp (lib "eopl.ss" "eopl")
   
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "environments.scm")
-  (require "store.scm")
-  (require "classes.scm")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "environments.rkt")
+  (require "store.rkt")
+  (require "classes.rkt")
   
   (provide value-of-program value-of instrument-let instrument-newref)
 

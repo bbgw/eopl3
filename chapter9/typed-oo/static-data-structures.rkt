@@ -1,9 +1,9 @@
 (module static-data-structures (lib "eopl.ss" "eopl")
 
   ;; type environments and associated procedures.
-  ;; In chapter7/checked, this is in checker.scm.
+  ;; In chapter7/checked, this is in checker.rkt.
 
-  (require "lang.scm")
+  (require "lang.rkt")
 
   (provide (all-defined-out))
 

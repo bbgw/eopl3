@@ -2,13 +2,13 @@
   
   ;; interpreter for the MUTABLE-PAIRS language
 
-  (require "drscheme-init.scm")
+  (require "drscheme-init.rkt")
 
-  (require "lang.scm")
-  (require "data-structures.scm")
-  (require "environments.scm")
-  (require "store.scm")
-  (require "pairvals.scm")
+  (require "lang.rkt")
+  (require "data-structures.rkt")
+  (require "environments.rkt")
+  (require "store.rkt")
+  (require "pairvals.rkt")
 
   (provide value-of-program value-of instrument-let instrument-newref)
 

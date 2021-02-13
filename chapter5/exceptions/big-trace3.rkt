@@ -19,8 +19,8 @@
 
 Welcome to DrScheme, version 299.400p1.
 Language: (module ...).
-drscheme-init.scm plt209.1.5 10feb2005
-lecture09/exceptions/interp.scm 15-Mar-06
+drscheme-init.rkt plt209.1.5 10feb2005
+lecture09/exceptions/interp.rkt 15-Mar-06
 |(value-of/k
    #(struct:let-exp
      index

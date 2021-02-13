@@ -1,6 +1,6 @@
 (module translator (lib "eopl.ss" "eopl")
   
-  (require "lang.scm")
+  (require "lang.rkt")
 
   (provide translation-of-program)
   ;;;;;;;;;;;;;;;; lexical address calculator ;;;;;;;;;;;;;;;;

@@ -1,6 +1,6 @@
 (module subtyping (lib "eopl.ss" "eopl")
   
-  (require "lang.scm")
+  (require "lang.rkt")
 
   (provide <:-iface)
 

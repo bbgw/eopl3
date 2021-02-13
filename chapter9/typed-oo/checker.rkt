@@ -1,9 +1,9 @@
 (module checker (lib "eopl.ss" "eopl")
 
-  (require "drscheme-init.scm")
-  (require "lang.scm")
-  (require "static-classes.scm")
-  (require "static-data-structures.scm")
+  (require "drscheme-init.rkt")
+  (require "lang.rkt")
+  (require "static-classes.rkt")
+  (require "static-data-structures.rkt")
 
   (provide type-to-external-form type-of type-of-program)
 
@@ -170,10 +170,10 @@
               rands
               exp)))
 
-        ;; this matches interp.scm:  interp.scm calls
+        ;; this matches interp.scm:  interp.rkt calls
         ;; object->class-name, which fails on a non-object, so we need
         ;; to make sure that obj-type is in fact a class type.
-        ;; interp.scm calls is-subclass?, which never raises an error,
+        ;; interp.rkt calls is-subclass?, which never raises an error,
         ;; so we don't need to do anything with class-name here.
 
         (cast-exp (exp class-name)
@@ -182,7 +182,7 @@
               (class-type class-name)
               (report-bad-type-to-cast obj-type exp))))
 
-        ;; instanceof in interp.scm behaves the same way as cast:  it
+        ;; instanceof in interp.rkt behaves the same way as cast:  it
         ;; calls object->class-name on its argument, so we need to
         ;; check that the argument is some kind of object, but we
         ;; don't need to look at class-name at all.

@@ -1,6 +1,6 @@
 (module data-structures (lib "eopl.ss" "eopl")
 
-  (require "cps-out-lang.scm")          ; for tfexp?
+  (require "cps-out-lang.rkt")          ; for tfexp?
   (provide (all-defined-out))               ; too many things to list
 
 ;;;;;;;;;;;;;;;; expressed values ;;;;;;;;;;;;;;;;

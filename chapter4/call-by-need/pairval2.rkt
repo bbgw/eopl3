@@ -1,7 +1,7 @@
 (module pairval2 (lib "eopl.ss" "eopl")
   
-  (require "drscheme-init.scm")
-  (require "store.scm")
+  (require "drscheme-init.rkt")
+  (require "store.rkt")
   
   (provide (all-defined-out))
   

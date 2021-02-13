@@ -1,8 +1,8 @@
 (module data-structures (lib "eopl.ss" "eopl")
 
-  (require "lang.scm")                  ; for expression?
-  (require "store.scm")                 ; for reference?
-  (require "classes.scm")               ; for object?
+  (require "lang.rkt")                  ; for expression?
+  (require "store.rkt")                 ; for reference?
+  (require "classes.rkt")               ; for object?
 
   (provide (all-defined-out))               ; too many things to list
 

@@ -1,7 +1,7 @@
 (module classes (lib "eopl.ss" "eopl")
 
-  (require "store.scm")
-  (require "lang.scm")
+  (require "store.rkt")
+  (require "lang.rkt")
 
   ;; object interface
   (provide object object? new-object object->class-name object->fields)
