@@ -3,11 +3,11 @@
   ;; top level module.  Loads all required pieces.
   ;; Run the test suite with (run-all).
 
-  (require "drscheme-init.scm")
-  (require "data-structures.scm")  ; for expval constructors
-  (require "lang.scm")             ; for scan&parse
-  (require "interp.scm")           ; for value-of-program
-  (require "tests.scm")            ; for test-list
+  (require "drscheme-init.rkt")
+  (require "data-structures.rkt")  ; for expval constructors
+  (require "lang.rkt")             ; for scan&parse
+  (require "interp.rkt")           ; for value-of-program
+  (require "tests.rkt")            ; for test-list
   
   ;; since this is the top-level module, we don't really need to
   ;; provide anything, but we do so just in case.  
@@ -21,8 +21,8 @@
   ;; here are some other things that could be provided:
 
   ;;   (provide (all-defined-out))
-  ;;   (provide (all-from "interp.scm"))
-  ;;   (provide (all-from "lang.scm"))
+  ;;   (provide (all-from "interp.rkt"))
+  ;;   (provide (all-from "lang.rkt"))
   
   ;;;;;;;;;;;;;;;; interface to test harness ;;;;;;;;;;;;;;;;
   
